@@ -180,7 +180,6 @@ Public Class frmSplitPdf
     ' / Count Pages.
     ' / --------------------------------------------------------------------------------
     Sub CountPage(ByRef doc As PdfLoadedDocument)
-        '/ Show PDF on PDFViewerControl of Syncfusion.
         Dim count As Integer = doc.Pages.Count
         cmbPageFrom.Items.Clear()
         cmbPageTo.Items.Clear()
